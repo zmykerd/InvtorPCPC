@@ -1,5 +1,6 @@
 
-<img width="907" height="723" alt="Principale" src="https://github.com/user-attachments/assets/49a375d4-089a-4194-bb7d-bab28c83a16e" />
+<img width="901" height="714" alt="Screen1" src="https://github.com/user-attachments/assets/d1e11495-c712-41f5-a402-34040fae1a84" />
+
 
 # SabrinaPCPC — Documentazione Tecnica
 
@@ -91,7 +92,7 @@ SabrinaPCPC.py
 
 ---
 
-<img width="902" height="722" alt="Comprimere" src="https://github.com/user-attachments/assets/b4280600-2add-4489-b0a2-2fdf6fc4e661" />
+<img width="902" height="711" alt="Screen2" src="https://github.com/user-attachments/assets/a88efc45-1b3d-466a-98ff-b410cc8bd1df" />
 
 
 ## Funzione 1 — Compressione
@@ -108,7 +109,7 @@ SabrinaPCPC.py
 
 ---
 
-<img width="898" height="718" alt="Confronto" src="https://github.com/user-attachments/assets/087a3641-5921-45c0-ac38-9f1d095e1dfb" />
+<img width="898" height="712" alt="Screen3" src="https://github.com/user-attachments/assets/fe86bd82-aa62-4f3d-bb9d-29c69751e67b" />
 
 
 ## Funzione 2 — Confronto Cartelle
