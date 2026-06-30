@@ -2,11 +2,11 @@
 <img width="901" height="714" alt="Screen1" src="https://github.com/user-attachments/assets/d1e11495-c712-41f5-a402-34040fae1a84" />
 
 
-# SabrinaPCPC — Documentazione Tecnica
+# InvtorPCPC — Documentazione Tecnica
 
 ## Panoramica
 
-SabrinaPCPC è un'applicazione desktop professionale per Linux con interfaccia grafica Tkinter.
+InvtorPCPC è un'applicazione desktop professionale per Linux con interfaccia grafica Tkinter.
 Offre due funzionalità principali:
 
 1. **Compressione File Multimediali** — Immagini (JPG, PNG) e video (MP4, MOV)
@@ -45,7 +45,7 @@ pip install Pillow av-python opencv-python-headless pyinstaller
 ## Avvio in sviluppo
 
 ```bash
-python SabrinaPCPC.py
+python InvtorPCPC.py
 ```
 
 ---
@@ -54,7 +54,7 @@ python SabrinaPCPC.py
 
 ```bash
 # Metodo 1: usando il file .spec
-pyinstaller SabrinaPCPC.spec
+pyinstaller InvtorPCPC.spec
 
 # Metodo 2: comando diretto
 pyinstaller --onefile --windowed \
@@ -64,18 +64,18 @@ pyinstaller --onefile --windowed \
   --hidden-import PIL.PngImagePlugin \
   --hidden-import av \
   --hidden-import cv2 \
-  --name SabrinaPCPC \
-  SabrinaPCPC.py
+  --name InvtorPCPC \
+  InvtorPCPC.py
 ```
 
-L'eseguibile finale sarà in `dist/SabrinaPCPC`.
+L'eseguibile finale sarà in `dist/InvtorPCPC`.
 
 ---
 
 ## Architettura del codice
 
 ```
-SabrinaPCPC.py
+InvtorPCPC.py
 ├── COLORS / FONTS          ← Palette e tipografia
 ├── CompressoreImmagini     ← Logica compressione JPG/PNG (Pillow)
 ├── CompressoreVideo        ← Logica compressione MP4/MOV (PyAV/OpenCV)
@@ -172,4 +172,4 @@ pip install opencv-python-headless
 
 ---
 
-*SabrinaPCPC v1.0 — Software professionale per Linux*
+*InvtorPCPC v1.0 — Software professionale per Linux*
